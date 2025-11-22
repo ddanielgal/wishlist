@@ -9,7 +9,7 @@ import {
 export default function Wishlist() {
   return (
     <ol className="space-y-4">
-      <Item variant="outline">
+      <Item variant="outline" role="listitem">
         <ItemMedia variant="image" className="size-36">
           <img
             src="https://placehold.co/144x144"
@@ -21,7 +21,7 @@ export default function Wishlist() {
           />
         </ItemMedia>
         <ItemContent>
-          <ItemTitle>Item title</ItemTitle>
+          <h3 className="text-lg leading-snug font-bold">Item title</h3>
           <ItemDescription>Item Description.</ItemDescription>
         </ItemContent>
       </Item>
