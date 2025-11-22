@@ -1,15 +1,9 @@
-import {
-  Item,
-  ItemContent,
-  ItemDescription,
-  ItemMedia,
-  ItemTitle,
-} from "./ui/item";
+import { Item, ItemContent, ItemDescription, ItemMedia } from "./ui/item";
 
 export default function Wishlist() {
   return (
     <ol className="space-y-4">
-      <Item variant="outline" role="listitem">
+      <Item variant="outline" role="listitem" className="items-start">
         <ItemMedia variant="image" className="size-36">
           <img
             src="https://placehold.co/144x144"
@@ -20,7 +14,7 @@ export default function Wishlist() {
             className="aspect-square object-cover"
           />
         </ItemMedia>
-        <ItemContent>
+        <ItemContent className="gap-3">
           <h3 className="text-lg leading-snug font-bold">Item title</h3>
           <ItemDescription>Item Description.</ItemDescription>
         </ItemContent>
