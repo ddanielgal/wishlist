@@ -59,6 +59,13 @@ spec:
     - host: danielgal.eu
       http:
         paths:
+          - path: /
+            pathType: Exact
+            backend:
+              service:
+                name: wishlist
+                port:
+                  number: 80
           - path: /kivansaglista
             pathType: Prefix
             backend:
