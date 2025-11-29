@@ -47,29 +47,6 @@ export default function Wishlist() {
       <Item variant="outline" role="listitem" className="items-start">
         <ItemMedia variant="image" className="size-36">
           <img
-            src="https://branthorn.hu/cdn/shop/files/gempages_561171690445341786-eae957e7-993c-4509-bd0e-307118dc7495.gif?v=500136139664623077"
-            alt="kés élező"
-            width={144}
-            height={144}
-            loading="lazy"
-            className="aspect-square object-cover"
-          />
-        </ItemMedia>
-        <ItemContent className="gap-3">
-          <h3 className="text-lg leading-snug font-bold">Gurigázó kés élező</h3>
-          <ItemDescription>
-            Branthorn, de más márka is jó. Valószínűleg ezt is az aliexpressről
-            dropshippelik.{" "}
-            <a href="https://branthorn.hu/" target="_blank">
-              Link.
-            </a>
-          </ItemDescription>
-        </ItemContent>
-      </Item>
-
-      <Item variant="outline" role="listitem" className="items-start">
-        <ItemMedia variant="image" className="size-36">
-          <img
             src="https://www.watchgecko.com/cdn/shop/products/watch-straps-vintage-highley-genuine-leather-watch-strap-reddish-brown-34686494736547_1066x.jpg?v=1661996709"
             alt="óraszíj"
             width={144}
@@ -161,6 +138,29 @@ export default function Wishlist() {
         <ItemContent className="gap-3">
           <h3 className="text-lg leading-snug font-bold">Boxer alsók</h3>
           <ItemDescription>L méret. Kényelmes, igazi anyagból.</ItemDescription>
+        </ItemContent>
+      </Item>
+
+      <Item variant="outline" role="listitem" className="items-start">
+        <ItemMedia variant="image" className="size-36">
+          <img
+            src="https://branthorn.hu/cdn/shop/files/gempages_561171690445341786-eae957e7-993c-4509-bd0e-307118dc7495.gif?v=500136139664623077"
+            alt="kés élező"
+            width={144}
+            height={144}
+            loading="lazy"
+            className="aspect-square object-cover"
+          />
+        </ItemMedia>
+        <ItemContent className="gap-3">
+          <h3 className="text-lg leading-snug font-bold">Gurigázó kés élező</h3>
+          <ItemDescription>
+            Branthorn, de más márka is jó. Valószínűleg ezt is az aliexpressről
+            dropshippelik.{" "}
+            <a href="https://branthorn.hu/" target="_blank">
+              Link.
+            </a>
+          </ItemDescription>
         </ItemContent>
       </Item>
 
