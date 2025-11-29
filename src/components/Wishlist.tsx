@@ -165,7 +165,7 @@ export default function Wishlist() {
       </Item>
 
       <Item variant="outline" role="listitem" className="items-start">
-        <ItemMedia className="grid size-36 grid-cols-2 gap-1">
+        <ItemMedia className="grid size-36 grid-cols-2 gap-1 overflow-hidden rounded-sm">
           <img
             src="https://cdn.myshoptet.com/usr/www.sladke-potreby.cz/user/shop/big/340169_holandske-kakao-granko-original-200g.png?673a380f"
             alt="granko"
