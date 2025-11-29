@@ -163,6 +163,52 @@ export default function Wishlist() {
           <ItemDescription>L méret. Kényelmes, igazi anyagból.</ItemDescription>
         </ItemContent>
       </Item>
+
+      <Item variant="outline" role="listitem" className="items-start">
+        <ItemMedia className="grid size-36 grid-cols-2 gap-1">
+          <img
+            src="https://cdn.myshoptet.com/usr/www.sladke-potreby.cz/user/shop/big/340169_holandske-kakao-granko-original-200g.png?673a380f"
+            alt="granko"
+            width={72}
+            height={72}
+            loading="lazy"
+            className="aspect-square h-full w-full object-cover"
+          />
+          <img
+            src="https://www.culinaryhill.com/wp-content/uploads/2023/03/A-Guide-to-Red-Wine-Culinary-Hill-LR-05.jpg"
+            alt="bor"
+            width={72}
+            height={72}
+            loading="lazy"
+            className="aspect-square h-full w-full object-cover"
+          />
+          <img
+            src="https://www.agrarkapu.hu/wp-content/uploads/2025/02/pisztacia-03-768x512.jpg"
+            alt="pisztácia"
+            width={72}
+            height={72}
+            loading="lazy"
+            className="aspect-square h-full w-full object-cover"
+          />
+          <img
+            src="https://www.woman.sk/wp-content/uploads/2011/07/pigicitron_3d.jpg"
+            alt="pigí čaj"
+            width={72}
+            height={72}
+            loading="lazy"
+            className="aspect-square h-full w-full object-cover"
+          />
+        </ItemMedia>
+        <ItemContent className="gap-3">
+          <h3 className="text-lg leading-snug font-bold">
+            Bármilyen fogyótermék
+          </h3>
+          <ItemDescription>
+            Granko, pigí čaj, finom bor, herbária epres vagy lime zöld tea,
+            édesség.
+          </ItemDescription>
+        </ItemContent>
+      </Item>
     </ol>
   );
 }
