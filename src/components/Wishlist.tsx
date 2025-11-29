@@ -17,7 +17,7 @@ export default function Wishlist() {
         <ItemContent className="gap-3">
           <h3 className="text-lg leading-snug font-bold">Kapucnis pulcsi</h3>
           <ItemDescription>
-            M méret. Cipzáros vagy nem cipzáros, mindegy. Mindegy milyen színű.
+            L méret. Cipzáros vagy nem cipzáros, mindegy. Mindegy milyen színű.
             Fekete, piros és kék már van. Ne legyen rajta semmi. Kényelmes,
             igazi anyagból.
           </ItemDescription>
