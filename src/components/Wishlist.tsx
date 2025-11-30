@@ -254,7 +254,7 @@ export default function Wishlist() {
           </h3>
           <ItemDescription>
             Granko, pigí čaj, finom bor, herbária epres vagy lime zöld tea,
-            édesség.
+            kinder csoki, tökmag, édesség.
           </ItemDescription>
         </ItemContent>
       </Item>
