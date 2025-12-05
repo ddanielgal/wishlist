@@ -6,8 +6,30 @@ export default function Wishlist() {
       <Item variant="outline" role="listitem" className="items-start">
         <ItemMedia variant="image" className="size-36">
           <img
-            src="https://s3-eu-west-1.amazonaws.com/images.linnlive.com/4026ef0cc7c4844b9d335306aa30fe5c/10518fb3-0456-4c38-96f3-cface3d52092.jpg"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fa1%2F5a%2F2c%2Fa15a2c5bb57d5047e134fe5bad6b1771.jpg&f=1&nofb=1&ipt=fefc23b6cd5a1d74040ae9e7bdc89cddde87a1befbc7390c3f5d9cab7d85a560"
             alt="pulcsi"
+            width={144}
+            height={144}
+            loading="lazy"
+            className="aspect-square object-cover"
+          />
+        </ItemMedia>
+        <ItemContent className="gap-3">
+          <h3 className="text-lg leading-snug font-bold">
+            Kapucni nélküli pulcsi
+          </h3>
+          <ItemDescription>
+            L méret. Mindegy milyen színű. Piros már van. Ne legyen rajta semmi.
+            Kényelmes, igazi anyagból.
+          </ItemDescription>
+        </ItemContent>
+      </Item>
+
+      <Item variant="outline" role="listitem" className="items-start">
+        <ItemMedia variant="image" className="size-36">
+          <img
+            src="https://s3-eu-west-1.amazonaws.com/images.linnlive.com/4026ef0cc7c4844b9d335306aa30fe5c/10518fb3-0456-4c38-96f3-cface3d52092.jpg"
+            alt="kapucnis pulcsi"
             width={144}
             height={144}
             loading="lazy"
@@ -207,6 +229,27 @@ export default function Wishlist() {
             Branthorn, de más márka is jó. Valószínűleg ezt is az aliexpressről
             dropshippelik.{" "}
             <a href="https://branthorn.hu/" target="_blank">
+              Link.
+            </a>
+          </ItemDescription>
+        </ItemContent>
+      </Item>
+
+      <Item variant="outline" role="listitem" className="items-start">
+        <ItemMedia variant="image" className="size-36">
+          <img
+            src="https://usetrmnl.com/assets/cta-ca23bfd6db299fcbfece054fb612ea9e173407d8b79bf569d1732c2a05677ebc.jpg"
+            alt="trmnl e-ink tablet"
+            width={144}
+            height={144}
+            loading="lazy"
+            className="aspect-square object-cover"
+          />
+        </ItemMedia>
+        <ItemContent className="gap-3">
+          <h3 className="text-lg leading-snug font-bold">TRMNL e-ink tablet</h3>
+          <ItemDescription>
+            <a href="https://usetrmnl.com/" target="_blank">
               Link.
             </a>
           </ItemDescription>
