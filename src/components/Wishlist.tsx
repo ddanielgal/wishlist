@@ -182,6 +182,47 @@ export default function Wishlist() {
       <Item variant="outline" role="listitem" className="items-start">
         <ItemMedia variant="image" className="size-36">
           <img
+            src="https://cdn.shopify.com/s/files/1/0254/0516/1520/files/logo.gif?v=1613717913"
+            alt="kurzgesagt"
+            width={144}
+            height={144}
+            loading="lazy"
+            className="aspect-square rounded-full object-cover"
+          />
+        </ItemMedia>
+        <ItemContent className="gap-3">
+          <h3 className="text-lg leading-snug font-bold">
+            Kurzgesagt shopból valami
+          </h3>
+          <ItemDescription>
+            <a
+              href="https://shop-eu.kurzgesagt.org/collections/infographic-posters"
+              target="_blank"
+            >
+              Infografikus poszterek
+            </a>
+            , a{" "}
+            <a
+              href="https://shop-eu.kurzgesagt.org/collections/calendar/products/12-026-human-era-calendar?variant=55341282656633"
+              target="_blank"
+            >
+              naptár
+            </a>
+            , vagy{" "}
+            <a
+              href="https://shop-eu.kurzgesagt.org/collections/clothes"
+              target="_blank"
+            >
+              ruhák
+            </a>
+            .
+          </ItemDescription>
+        </ItemContent>
+      </Item>
+
+      <Item variant="outline" role="listitem" className="items-start">
+        <ItemMedia variant="image" className="size-36">
+          <img
             src="https://ae01.alicdn.com/kf/H6db7d685cc23448ba94d2f11ca168728z/Men-s-Autumn-Summer-Socks-Classic-Patchwork-Mesh-Men-Short-Socks-Deodorant-Male-Sock-Casual-slippers.jpg"
             alt="zoknik"
             width={144}
