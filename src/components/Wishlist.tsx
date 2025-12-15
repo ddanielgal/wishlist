@@ -158,6 +158,48 @@ export default function Wishlist() {
       <Item variant="outline" role="listitem" className="items-start">
         <ItemMedia variant="image" className="size-36">
           <img
+            src="https://cdn3.centrecom.com.au/images/upload/0180111_0.jpeg"
+            alt="wd red plus"
+            width={144}
+            height={144}
+            loading="lazy"
+            className="aspect-square object-cover"
+          />
+        </ItemMedia>
+        <ItemContent className="gap-3">
+          <h3 className="text-lg leading-snug font-bold">
+            WD Red Plus 4TB vagy 8TB
+          </h3>
+          <ItemDescription>
+            Alza{" "}
+            <a
+              href="https://www.alza.hu/wd-red-plus-4tb-d7587417.htm"
+              target="_blank"
+            >
+              4TB
+            </a>
+            , Heureka{" "}
+            <a
+              href="https://pevne-disky.heureka.sk/wd-red-plus-4tb-wd40efpx/#prehlad/"
+              target="_blank"
+            >
+              4TB
+            </a>
+            ,{" "}
+            <a
+              href="https://pevne-disky.heureka.sk/wd-red-plus-8tb-wd80efpx/#prehlad/"
+              target="_blank"
+            >
+              8TB
+            </a>
+            .
+          </ItemDescription>
+        </ItemContent>
+      </Item>
+
+      <Item variant="outline" role="listitem" className="items-start">
+        <ItemMedia variant="image" className="size-36">
+          <img
             src="https://www.ikea.com/ext/ingkadam/m/32d01bb4555a9ef/original/GC-CF-IDServices-FY25-Multipleuse-Image-Christmas-04-4-3-crop001.jpg?f=xl"
             alt="ikea ajándékkártya"
             width={144}
