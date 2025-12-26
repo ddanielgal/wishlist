@@ -6,28 +6,6 @@ export default function Wishlist() {
       <Item variant="outline" role="listitem" className="items-start">
         <ItemMedia variant="image" className="size-36">
           <img
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fa1%2F5a%2F2c%2Fa15a2c5bb57d5047e134fe5bad6b1771.jpg&f=1&nofb=1&ipt=fefc23b6cd5a1d74040ae9e7bdc89cddde87a1befbc7390c3f5d9cab7d85a560"
-            alt="pulcsi"
-            width={144}
-            height={144}
-            loading="lazy"
-            className="aspect-square object-cover"
-          />
-        </ItemMedia>
-        <ItemContent className="gap-3">
-          <h3 className="text-lg leading-snug font-bold">
-            Kapucni nélküli pulcsi
-          </h3>
-          <ItemDescription>
-            L méret. Mindegy milyen színű. Piros már van. Ne legyen rajta semmi.
-            Kényelmes, igazi anyagból.
-          </ItemDescription>
-        </ItemContent>
-      </Item>
-
-      <Item variant="outline" role="listitem" className="items-start">
-        <ItemMedia variant="image" className="size-36">
-          <img
             src="https://s3-eu-west-1.amazonaws.com/images.linnlive.com/4026ef0cc7c4844b9d335306aa30fe5c/10518fb3-0456-4c38-96f3-cface3d52092.jpg"
             alt="kapucnis pulcsi"
             width={144}
@@ -42,26 +20,6 @@ export default function Wishlist() {
             L méret. Cipzáros vagy nem cipzáros, mindegy. Mindegy milyen színű.
             Fekete, piros és kék már van. Ne legyen rajta semmi. Kényelmes,
             igazi anyagból.
-          </ItemDescription>
-        </ItemContent>
-      </Item>
-
-      <Item variant="outline" role="listitem" className="items-start">
-        <ItemMedia variant="image" className="size-36">
-          <img
-            src="https://i5.walmartimages.com/seo/Oral-B-iO-Gentle-Care-Replacement-Heads-Electric-Toothbrush-Brush-Heads-Black-2-Count_56beb798-6c16-4834-ae06-6b151d449c8f.674ba7b5141654747fc21d9624ca08ba.jpeg"
-            alt="fogkefe fej"
-            width={144}
-            height={144}
-            loading="lazy"
-            className="aspect-square object-cover"
-          />
-        </ItemMedia>
-        <ItemContent className="gap-3">
-          <h3 className="text-lg leading-snug font-bold">Fogkefe fej</h3>
-          <ItemDescription>
-            Oral-B iO 4 fogkeféhez. "Gentle Care" típus preferált. Elég egy 4-es
-            csomag és majd jövő karácsonyra is kérek még.
           </ItemDescription>
         </ItemContent>
       </Item>
@@ -126,31 +84,6 @@ export default function Wishlist() {
           <ItemDescription>
             L méret. Cipzáros zsebű, kint hordható. Mindegy milyen színű. Fekete
             már van. Kényelmes, igazi anyagból.
-          </ItemDescription>
-        </ItemContent>
-      </Item>
-
-      <Item variant="outline" role="listitem" className="items-start">
-        <ItemMedia variant="image" className="size-36">
-          <img
-            src="https://www.ikea.com/hu/hu/images/products/forsa-asztali-lampa-feher__0687071_pe721952_s5.jpg?f=xl"
-            alt="lámpa"
-            width={144}
-            height={144}
-            loading="lazy"
-            className="aspect-square object-cover"
-          />
-        </ItemMedia>
-        <ItemContent className="gap-3">
-          <h3 className="text-lg leading-snug font-bold">FORSÅ lámpa</h3>
-          <ItemDescription>
-            Fehér színű. Az ikeából.{" "}
-            <a
-              href="https://www.ikea.com/hu/hu/p/forsa-asztali-lampa-feher-30439117/"
-              target="_blank"
-            >
-              Link.
-            </a>
           </ItemDescription>
         </ItemContent>
       </Item>
