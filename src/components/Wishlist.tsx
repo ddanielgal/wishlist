@@ -61,8 +61,8 @@ export default function Wishlist() {
         <ItemContent className="gap-3">
           <h3 className="text-lg leading-snug font-bold">Kinti tepláky</h3>
           <ItemDescription>
-            L méret. Cipzáros zsebű, kint hordható. Mindegy milyen színű. Fekete
-            már van. Kényelmes, igazi anyagból.
+            L méret. Cipzáros zsebű, kint hordható. Szürke, sötétszürke
+            preferált. Fekete már van. Kényelmes, igazi anyagból.
           </ItemDescription>
         </ItemContent>
       </Item>
