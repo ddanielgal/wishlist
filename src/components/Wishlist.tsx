@@ -79,11 +79,9 @@ export default function Wishlist() {
           />
         </ItemMedia>
         <ItemContent className="gap-3">
-          <h3 className="text-lg leading-snug font-bold">
-            WD Red Plus 4TB vagy 8TB
-          </h3>
+          <h3 className="text-lg leading-snug font-bold">WD Red Plus 4TB</h3>
           <ItemDescription>
-            Alza{" "}
+            Csak a 4TB méret jó pls. Alza{" "}
             <a
               href="https://www.alza.hu/wd-red-plus-4tb-d7587417.htm"
               target="_blank"
@@ -96,13 +94,6 @@ export default function Wishlist() {
               target="_blank"
             >
               4TB
-            </a>
-            ,{" "}
-            <a
-              href="https://pevne-disky.heureka.sk/wd-red-plus-8tb-wd80efpx/#prehlad/"
-              target="_blank"
-            >
-              8TB
             </a>
             .
           </ItemDescription>
