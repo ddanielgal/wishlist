@@ -6,27 +6,6 @@ export default function Wishlist() {
       <Item variant="outline" role="listitem" className="items-start">
         <ItemMedia variant="image" className="size-36">
           <img
-            src="https://s3-eu-west-1.amazonaws.com/images.linnlive.com/4026ef0cc7c4844b9d335306aa30fe5c/10518fb3-0456-4c38-96f3-cface3d52092.jpg"
-            alt="kapucnis pulcsi"
-            width={144}
-            height={144}
-            loading="lazy"
-            className="aspect-square object-cover"
-          />
-        </ItemMedia>
-        <ItemContent className="gap-3">
-          <h3 className="text-lg leading-snug font-bold">Kapucnis pulcsi</h3>
-          <ItemDescription>
-            L méret. Cipzáros vagy nem cipzáros, mindegy. Mindegy milyen színű.
-            Fekete, piros és kék már van. Ne legyen rajta semmi. Kényelmes,
-            igazi anyagból.
-          </ItemDescription>
-        </ItemContent>
-      </Item>
-
-      <Item variant="outline" role="listitem" className="items-start">
-        <ItemMedia variant="image" className="size-36">
-          <img
             src="https://www.watchgecko.com/cdn/shop/products/watch-straps-vintage-highley-genuine-leather-watch-strap-reddish-brown-34686494736547_1066x.jpg?v=1661996709"
             alt="óraszíj"
             width={144}
