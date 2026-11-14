@@ -50,26 +50,6 @@ export default function Wishlist() {
       <Item variant="outline" role="listitem" className="items-start">
         <ItemMedia variant="image" className="size-36">
           <img
-            src="https://i.pinimg.com/originals/11/b2/dc/11b2dc9f56df933dd3f5bf790d9e3409.jpg"
-            alt="tepláky"
-            width={144}
-            height={144}
-            loading="lazy"
-            className="aspect-square object-cover"
-          />
-        </ItemMedia>
-        <ItemContent className="gap-3">
-          <h3 className="text-lg leading-snug font-bold">Kinti tepláky</h3>
-          <ItemDescription>
-            L méret. Cipzáros zsebű, kint hordható. Szürke, sötétszürke
-            preferált. Fekete már van. Kényelmes, igazi anyagból.
-          </ItemDescription>
-        </ItemContent>
-      </Item>
-
-      <Item variant="outline" role="listitem" className="items-start">
-        <ItemMedia variant="image" className="size-36">
-          <img
             src="https://cdn3.centrecom.com.au/images/upload/0180111_0.jpeg"
             alt="wd red plus"
             width={144}
