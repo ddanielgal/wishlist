@@ -181,7 +181,7 @@ export default function Wishlist() {
       <Item variant="outline" role="listitem" className="items-start">
         <ItemMedia variant="image" className="size-36">
           <img
-            src="https://usetrmnl.com/assets/cta-ca23bfd6db299fcbfece054fb612ea9e173407d8b79bf569d1732c2a05677ebc.jpg"
+            src="https://trmnl.com/assets/section2-1-87c3614a.jpg"
             alt="trmnl e-ink tablet"
             width={144}
             height={144}
