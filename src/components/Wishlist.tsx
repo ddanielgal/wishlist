@@ -32,6 +32,30 @@ export default function Wishlist() {
       <Item variant="outline" role="listitem" className="items-start">
         <ItemMedia variant="image" className="size-36">
           <img
+            src="https://www.ikea.com/ext/ingkadam/m/32d01bb4555a9ef/original/GC-CF-IDServices-FY25-Multipleuse-Image-Christmas-04-4-3-crop001.jpg?f=xl"
+            alt="ikea ajándékkártya"
+            width={144}
+            height={144}
+            loading="lazy"
+            className="aspect-square object-cover"
+          />
+        </ItemMedia>
+        <ItemContent className="gap-3">
+          <h3 className="text-lg leading-snug font-bold">Ikea ajándékkártya</h3>
+          <ItemDescription>
+            <a
+              href="https://www.ikea.com/hu/hu/customer-service/payment-options/gift-cards/"
+              target="_blank"
+            >
+              Link.
+            </a>
+          </ItemDescription>
+        </ItemContent>
+      </Item>
+
+      <Item variant="outline" role="listitem" className="items-start">
+        <ItemMedia variant="image" className="size-36">
+          <img
             src="https://www.watchgecko.com/cdn/shop/products/watch-straps-vintage-highley-genuine-leather-watch-strap-reddish-brown-34686494736547_1066x.jpg?v=1661996709"
             alt="óraszíj"
             width={144}
@@ -102,30 +126,6 @@ export default function Wishlist() {
               4TB
             </a>
             .
-          </ItemDescription>
-        </ItemContent>
-      </Item>
-
-      <Item variant="outline" role="listitem" className="items-start">
-        <ItemMedia variant="image" className="size-36">
-          <img
-            src="https://www.ikea.com/ext/ingkadam/m/32d01bb4555a9ef/original/GC-CF-IDServices-FY25-Multipleuse-Image-Christmas-04-4-3-crop001.jpg?f=xl"
-            alt="ikea ajándékkártya"
-            width={144}
-            height={144}
-            loading="lazy"
-            className="aspect-square object-cover"
-          />
-        </ItemMedia>
-        <ItemContent className="gap-3">
-          <h3 className="text-lg leading-snug font-bold">Ikea ajándékkártya</h3>
-          <ItemDescription>
-            <a
-              href="https://www.ikea.com/hu/hu/customer-service/payment-options/gift-cards/"
-              target="_blank"
-            >
-              Link.
-            </a>
           </ItemDescription>
         </ItemContent>
       </Item>
