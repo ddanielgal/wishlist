@@ -181,29 +181,6 @@ export default function Wishlist() {
       <Item variant="outline" role="listitem" className="items-start">
         <ItemMedia variant="image" className="size-36">
           <img
-            src="https://branthorn.hu/cdn/shop/files/gempages_561171690445341786-eae957e7-993c-4509-bd0e-307118dc7495.gif?v=500136139664623077"
-            alt="kés élező"
-            width={144}
-            height={144}
-            loading="lazy"
-            className="aspect-square object-cover"
-          />
-        </ItemMedia>
-        <ItemContent className="gap-3">
-          <h3 className="text-lg leading-snug font-bold">Gurigázó kés élező</h3>
-          <ItemDescription>
-            Branthorn, de más márka is jó. Valószínűleg ezt is az aliexpressről
-            dropshippelik.{" "}
-            <a href="https://branthorn.hu/" target="_blank">
-              Link.
-            </a>
-          </ItemDescription>
-        </ItemContent>
-      </Item>
-
-      <Item variant="outline" role="listitem" className="items-start">
-        <ItemMedia variant="image" className="size-36">
-          <img
             src="https://usetrmnl.com/assets/cta-ca23bfd6db299fcbfece054fb612ea9e173407d8b79bf569d1732c2a05677ebc.jpg"
             alt="trmnl e-ink tablet"
             width={144}
