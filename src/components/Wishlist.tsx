@@ -164,7 +164,7 @@ export default function Wishlist() {
       <Item variant="outline" role="listitem" className="items-start">
         <ItemMedia variant="image" className="size-36">
           <img
-            src="https://www.siatex.com/wp-content/uploads/2023/02/Mens-Underwear-Boxer-Briefs.jpg.webp"
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi5.walmartimages.com%2Fseo%2FHanes-Ultimate-Men-s-Boxer-Brief-Underwear-Ringer-Style-5-Pack-Assorted-2XL_cce1a5f3-a012-427f-9a6f-9e7dc426f4a5.2b7701c41c4da2dd1172726578a4a802.jpeg&f=1&nofb=1&ipt=63984a02b3cb0470dfb95c02a69a0ed593233e2348c96274ead071bd4ee0de68&ipo=images"
             alt="boxerek"
             width={144}
             height={144}
