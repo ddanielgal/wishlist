@@ -210,6 +210,14 @@ export default function Wishlist() {
             className="aspect-square h-full w-full object-cover"
           />
           <img
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Featingisart.com%2Fwp-content%2Fuploads%2F2024%2F08%2Fcajun-spiced-roasted-pumpkin-seeds-recipe-1723131918.jpg&f=1&nofb=1&ipt=11fd37c8e6d58788a9400a524600991616775cf0c238c90d8c75a0ee279a7211&ipo=images"
+            alt="tökmag"
+            width={72}
+            height={72}
+            loading="lazy"
+            className="aspect-square h-full w-full object-cover"
+          />
+          <img
             src="https://www.agrarkapu.hu/wp-content/uploads/2025/02/pisztacia-03-768x512.jpg"
             alt="pisztácia"
             width={72}
