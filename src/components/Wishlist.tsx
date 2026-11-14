@@ -253,14 +253,6 @@ export default function Wishlist() {
             className="aspect-square h-full w-full object-cover"
           />
           <img
-            src="https://www.culinaryhill.com/wp-content/uploads/2023/03/A-Guide-to-Red-Wine-Culinary-Hill-LR-05.jpg"
-            alt="bor"
-            width={72}
-            height={72}
-            loading="lazy"
-            className="aspect-square h-full w-full object-cover"
-          />
-          <img
             src="https://www.agrarkapu.hu/wp-content/uploads/2025/02/pisztacia-03-768x512.jpg"
             alt="pisztácia"
             width={72}
@@ -282,8 +274,8 @@ export default function Wishlist() {
             Bármilyen fogyótermék
           </h3>
           <ItemDescription>
-            Granko, pigí čaj, slovakia paprika a rajčina chips, finom bor,
-            herbária epres vagy lime zöld tea, kinder csoki, tökmag, édesség.
+            Granko, pigí čaj, slovakia paprika a rajčina chips, herbária epres
+            vagy lime zöld tea, kinder csoki, tökmag, édesség.
           </ItemDescription>
         </ItemContent>
       </Item>
