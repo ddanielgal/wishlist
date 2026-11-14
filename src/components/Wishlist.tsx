@@ -6,6 +6,32 @@ export default function Wishlist() {
       <Item variant="outline" role="listitem" className="items-start">
         <ItemMedia variant="image" className="size-36">
           <img
+            src="https://image.alza.cz/products/MG125e2e1/MG125e2e1.jpg?width=800&height=800"
+            alt="logitech mx master 3s"
+            width={144}
+            height={144}
+            loading="lazy"
+            className="aspect-square object-cover"
+          />
+        </ItemMedia>
+        <ItemContent className="gap-3">
+          <h3 className="text-lg leading-snug font-bold">
+            Logitech MX Master 3S
+          </h3>
+          <ItemDescription>
+            <a
+              href="https://www.alza.hu/logitech-mx-master-3s-universal-graphite-d7438602.htm?o=4"
+              target="_blank"
+            >
+              Link.
+            </a>
+          </ItemDescription>
+        </ItemContent>
+      </Item>
+
+      <Item variant="outline" role="listitem" className="items-start">
+        <ItemMedia variant="image" className="size-36">
+          <img
             src="https://www.watchgecko.com/cdn/shop/products/watch-straps-vintage-highley-genuine-leather-watch-strap-reddish-brown-34686494736547_1066x.jpg?v=1661996709"
             alt="óraszíj"
             width={144}
