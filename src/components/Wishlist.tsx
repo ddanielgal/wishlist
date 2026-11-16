@@ -46,7 +46,7 @@ export default function Wishlist() {
           </h3>
           <ItemDescription>
             <a
-              href="https://www.alza.hu/gaming/elektronikus-alza-utalvanyok/18907498.htm#sort_2"
+              href="https://www.alza.hu/gaming/elektronikus-alza-utalvanyok/18907498.htm#f&cud=0&pg=1&pn=2&prod="
               target="_blank"
             >
               Link.
