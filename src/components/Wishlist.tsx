@@ -32,6 +32,32 @@ export default function Wishlist() {
       <Item variant="outline" role="listitem" className="items-start">
         <ItemMedia variant="image" className="size-36">
           <img
+            src="/alza-ajandekutalvany.png"
+            alt="alza ajándékutalvány"
+            width={144}
+            height={144}
+            loading="lazy"
+            className="aspect-square object-cover"
+          />
+        </ItemMedia>
+        <ItemContent className="gap-3">
+          <h3 className="text-lg leading-snug font-bold">
+            Alza.hu ajándékutalvány
+          </h3>
+          <ItemDescription>
+            <a
+              href="https://www.alza.hu/gaming/olcso-elektronikus-alza-utalvanyok/18907498.htm"
+              target="_blank"
+            >
+              Link.
+            </a>
+          </ItemDescription>
+        </ItemContent>
+      </Item>
+
+      <Item variant="outline" role="listitem" className="items-start">
+        <ItemMedia variant="image" className="size-36">
+          <img
             src="https://www.ikea.com/ext/ingkadam/m/32d01bb4555a9ef/original/GC-CF-IDServices-FY25-Multipleuse-Image-Christmas-04-4-3-crop001.jpg?f=xl"
             alt="ikea ajándékkártya"
             width={144}
