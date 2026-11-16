@@ -30,14 +30,14 @@ export default function Wishlist() {
       </Item>
 
       <Item variant="outline" role="listitem" className="items-start">
-        <ItemMedia variant="image" className="size-36">
+        <ItemMedia variant="image" className="size-36 [&_img]:object-contain">
           <img
             src="/alza-ajandekutalvany.png"
             alt="alza ajándékutalvány"
             width={144}
             height={144}
             loading="lazy"
-            className="aspect-square object-cover"
+            className="object-contain"
           />
         </ItemMedia>
         <ItemContent className="gap-3">
